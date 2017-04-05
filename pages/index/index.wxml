@@ -1,0 +1,4 @@
+<view class="main-map">
+    <map id="map" latitude="23.099994" longitude="113.324520" show-location markers="{{markers}}" bindtap= "mapTap" bindmarkertap="markerTap" bindregionchange="regionchange" show-location style="width:750rpx;height:100vh;"></map>
+    <canvas class="canvas" wx:if="{{tapPocket}}" canvas-id="firstCanvas" bindtouchstart="canvasTap"></canvas>
+</view>
